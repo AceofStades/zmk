@@ -92,6 +92,51 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <27 28>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <3 2>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <12 13>;
+        };
+
+        hyphen {
+            bindings = <&kp MINUS>;
+            key-positions = <2 1>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <11 12>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <10 11>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <8 9>;
+        };
+
+        sqt {
+            bindings = <&kp SQT>;
+            key-positions = <18 19>;
+        };
+
+        dqt {
+            bindings = <&kp DQT>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
@@ -107,7 +152,7 @@
             bindings = <
 &kp B              &kp L         &kp D  &kp W      &kp Z         &kp SEMI              &kp F             &kp O             &kp U      &kp J    &hml LEFT_ALT N  &hml LEFT_GUI R
 &hml LEFT_SHIFT T  &hml LCTRL S  &kp G  &kp Y      &hmr RCTRL H  &hmr RIGHT_SHIFT A    &hmr RIGHT_GUI E  &hmr RIGHT_ALT I  &kp Q      &kp X    &kp M            &kp C
-&kp V              &kp K         &kp P  &kp COMMA  &kp DOT       &kp FSLH              &kp ESC           &lt 1 DELETE      &kp SPACE  &kp RET  &lt 2 ESCAPE     &kp BACKSPACE
+&kp V              &kp K         &kp P  &kp COMMA  &kp DOT       &kp FSLH              &kp ESC           &lt 1 DELETE      &kp SPACE  &kp RET  &lt 2 TAB        &kp BACKSPACE
             >;
         };
 
@@ -121,9 +166,9 @@
 
         raise {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp N1  &kp N2
-&kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8    &kp N9  &kp N0  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)    &kp LS(AMPS)  &kp LS(STAR)  &kp F11  &kp F12  &kp N1  &kp N2
+&kp N3        &kp N4      &kp N5         &kp N6        &kp N7         &kp N8           &kp N9        &kp N0        &kp F1   &kp F2   &kp F3  &kp F4
+&kp F5        &kp F6      &kp F7         &kp F8        &kp F9         &kp F10          &trans        &trans        &trans   &trans   &trans  &trans
             >;
         };
     };
