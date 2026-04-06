@@ -177,9 +177,9 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &trans  &trans
+&trans  &trans  &trans  &trans  &kp PERCENT  &kp CARET    &kp AMPERSAND    &kp ASTERISK  &trans    &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans       &trans           &trans        &trans    &trans      &trans  &trans
             >;
         };
 
